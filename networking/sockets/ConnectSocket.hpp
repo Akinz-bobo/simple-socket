@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 namespace HDE{
-    class ConnectSocket :public SimpleSocket
+    class ConnectSocket : public SimpleSocket
     {
         public:
             ConnectSocket(int domain, int service, int protocol, int port, u_long interface);

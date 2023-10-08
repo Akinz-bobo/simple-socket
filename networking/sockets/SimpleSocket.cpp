@@ -33,7 +33,7 @@ int HDE::SimpleSocket::get_sock()
     return sock;
 }
 
-int HDE::SimpleSocket::get_conncetion()
+int HDE::SimpleSocket::get_connection()
 {
     return connection;
 }

@@ -20,7 +20,7 @@ namespace HDE
             void test_connetion(int);
             struct sockaddr_in get_address();
             int get_sock();
-            int get_conncetion();
+            int get_connection();
             //Setter function 
             void set_connection(int conn);
     };
